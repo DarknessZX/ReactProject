@@ -1,0 +1,9 @@
+.search_bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.media_item:hover {
+  cursor: pointer;
+  background-color: grey;
+}
