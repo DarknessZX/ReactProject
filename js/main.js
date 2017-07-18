@@ -4,8 +4,9 @@ import YTSearch from 'youtube-api-search'
 import SearchBar from './components/search_bar.js';
 import VideoList from './components/video_list.js';
 import VideoDetail from './components/video_detail.js';
+import API_Key from './config.js';
 
-const YOUTUBE_API_KEY = 'AIzaSyC8_JIdFGJhNGPTrtLd0YOF-L0iRrpAXjQ';
+const YOUTUBE_API_KEY = API_Key;
 
 class App extends React.Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class App extends React.Component {
       videos: [],
       selectedVideo: null
     };
-    
+
     this.videoSearch('LOL');
   }
 
